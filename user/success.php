@@ -105,7 +105,7 @@ $description=$survey["description"];
             </div>
         </div>
         <div class="col-6 image">
-            <img src="/user/like.png" alt="Like Icon">
+            <img src="/public/img/like.png" alt="Like Icon">
         </div>
     </div>
 </div>

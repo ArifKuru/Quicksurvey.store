@@ -153,7 +153,7 @@ $survey_fields=Survey_fields::getSurveyFieldsById($_GET["sf"]);
 </head>
 <body>
 <div class="survey-container">
-    <form action="next.php" method="POST">
+    <form action="/main/next.php" method="POST">
         <input type="hidden" name="survey_field_id" value="<?= $_GET["sf"]?>">
         <input type="hidden" id="ratingInput" name="value" value=""> <!-- Gizli input alanı -->
 

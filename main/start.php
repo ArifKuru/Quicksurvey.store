@@ -1,10 +1,10 @@
 <?php
 session_start();
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/survey_fields.class.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/survey_fields.class.php";
 
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/profiles.class.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/profiles.class.php";
 
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/surveyFrameGenerator.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/surveyFrameGenerator.php";
 
 
 $name=$_POST["name"];

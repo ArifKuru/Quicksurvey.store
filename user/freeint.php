@@ -150,7 +150,7 @@ $survey_fields=Survey_fields::getSurveyFieldsById($_GET["sf"]);
 <div class="survey-container">
     <div class="question-number"><?= Survey_fields::getOrderOfSurveyField($_GET["sf"])?> of <?= Survey::getCountOfFields($survey_fields["survey_id"])?></div>
     <h2><?= $_GET["field_title"]?></h2>
-<form method="POST" action="next.php">
+<form method="POST" action="/main/next.php">
     <div class="input-container">
         <input type="hidden"
         name="survey_field_id"

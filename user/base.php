@@ -162,4 +162,4 @@
     <div class="team-name" style="font-size: 18px;">- <?= $_GET["company"] ?></div>
 </div>
 
-<img src="resim5.png" alt="Logo" class="bottom-left-image">
+<img src="/public/img/resim5.png" alt="Logo" class="bottom-left-image">

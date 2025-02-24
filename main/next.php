@@ -1,8 +1,8 @@
 <?php
 session_start();
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/responses.class.php";
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/survey_fields.class.php";
-require_once $_SERVER["DOCUMENT_ROOT"]."/classes/surveyFrameGenerator.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/responses.class.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/survey_fields.class.php";
+require_once $_SERVER["DOCUMENT_ROOT"] . "/classes/surveyFrameGenerator.php";
 
 $survey_field_id = $_POST['survey_field_id'];
 $value = $_POST["value"];

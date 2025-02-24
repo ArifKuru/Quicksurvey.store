@@ -186,7 +186,7 @@ $survey_fields=Survey_fields::getSurveyFieldsById($_GET["sf"]);
     <div class="question-number"><?= Survey_fields::getOrderOfSurveyField($_GET["sf"])?> of <?= Survey::getCountOfFields($survey_fields["survey_id"])?></div>
     <h2><?= $_GET["field_title"]?></h2>
 
-    <form method="POST" action="next.php">
+    <form method="POST" action="/main/next.php">
         <input type="hidden" name="survey_field_id" value="<?= $_GET["sf"]?>">
     <div class="input-container">
         <input type="number" id="satisfactionInput" name="value" min="0" max="100" value="50" step="1" />

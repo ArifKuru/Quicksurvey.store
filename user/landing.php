@@ -323,12 +323,12 @@ if (isset($_COOKIE["survey_hash_id"]) && $_COOKIE["survey_hash_id"]==$_GET["h"])
 <body>
 <div class="video-container">
     <video autoplay loop muted>
-        <source src="templates-rotation-homepage.mp4" type="video/mp4">
+        <source src="/public/video/templates-rotation-homepage.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
     <div class="form-container">
-        <form action="start.php" method="POST">
+        <form action="/main/start.php" method="POST">
             <label for="name">First Name</label>
             <input type="hidden" id="hash_id" name="hash_id" value="<?=$_GET["h"]?>">
             <input type="text" id="name" name="name" placeholder="Enter your first name" required>
@@ -351,7 +351,7 @@ if (isset($_COOKIE["survey_hash_id"]) && $_COOKIE["survey_hash_id"]==$_GET["h"])
         <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
 
-    <img src="resim5.png" alt="Logo" class="bottom-left-image">
+    <img src="/public/img/resim5.png" alt="Logo" class="bottom-left-image">
 
     <div class="welcome-text">
         <h1>Welcome to QuickSurvey</h1>
