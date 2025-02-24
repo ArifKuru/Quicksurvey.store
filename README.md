@@ -77,7 +77,7 @@ The main algorithm files follow a simple Linked List approach, starting by findi
    ```
    
 5.**AI**
-   For AI Survey Creation you need to deploy `/python-part` then set your deployment url to /api/sendRequestToAi.php;
+   For AI Survey Creation you need to deploy `/python-part` then set your deployment url at /api/sendRequestToAi.php;
    ```api/sendRequestToAi.php
    $url = "https://qs-api-3.onrender.com/generate-survey";
    ```
