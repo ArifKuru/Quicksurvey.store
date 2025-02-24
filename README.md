@@ -40,10 +40,12 @@ QuickSurvey.store is a platform that allows users to easily create and manage su
    ```sh
    php -S localhost:8000 -t public/
    ```
-5.For AI Survey Creation you need to deploy `/python-part` then set your deployment url;
+   
+5.**AI**
+   For AI Survey Creation you need to deploy `/python-part` then set your deployment url to /api/sendRequestToAi.php;
    ```api/sendRequestToAi.php
-$url = "https://qs-api-3.onrender.com/generate-survey";
-```
+   $url = "https://qs-api-3.onrender.com/generate-survey";
+   ```
 ## Usage
 - **Create a Survey**: After logging in, users can create new surveys.
 - **Share Surveys**: Created surveys can be shared via a unique link.
