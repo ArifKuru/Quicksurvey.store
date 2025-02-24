@@ -37,6 +37,11 @@ QuickSurvey.store is a platform that allows users to easily create and manage su
 ### Basic Representation of Algorithm
 ![Algorithm Schema](http://quicksurvey.store/public/img/algo.png)
 
+### Additional Informations
+
+The system mostly focuses on separating the backend from the frontend using API endpoints while developing methods in an object-oriented manner within classes.
+The main algorithm files follow a simple Linked List approach, starting by finding the initial node with hash_id. Then, while there are next form_fields, it visits all nodes.
+
 
 ## Installation
 
