@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# admin/user/register.php'yi /api/register olarak yönlendir
+RewriteRule ^api/register$ admin/authentication/register.php [L]
+RewriteRule ^api/login$ admin/authentication/login.php [L]
+RewriteRule ^login$ admin/auth.php [L]
+RewriteRule ^register$ admin/register.php [L]
+RewriteRule ^register/success$ admin/register_success.php [L]
+RewriteRule ^register/verify$ admin/register_verify.php [L]
+RewriteRule ^success$ user/success.php [L]
+
+RewriteRule ^dashboard$ admin/dashboard/surveys.php [L]
+RewriteRule ^survey/edit$ admin/dashboard/edit_survey.php [L]
+RewriteRule ^survey$ user/survey.php [L]
+RewriteRule ^responses$ admin/responses/reports.php [L]
+RewriteRule ^surveys$ admin/surveys/all_surveys.php [L]
+RewriteRule ^information$ landing/information.php [L]
+RewriteRule ^us$ landing/aboutUs.php [L]

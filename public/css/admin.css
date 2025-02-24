@@ -1,0 +1,121 @@
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Ana ekranın arka planı beyaz */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Navbar stili */
+.navbar {
+    background-color: #ffffff; /* Navbar arka planı beyaz */
+    padding: 1rem; /* Navbar'a biraz boşluk ekliyoruz */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ile belirgin hale getiriyoruz */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #373737 !important; /* Koyu gri yazı rengi */
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar öğeleri arası boşluk */
+.navbar .nav-link {
+    margin-right: 20px; /* Her bir linke sağ taraftan 20px boşluk ekliyoruz */
+}
+
+.navbar .nav-link.active {
+    background-color: #9588E8; /* Açık mor arka plan */
+    color: #ffffff !important; /* Beyaz yazı */
+    border-radius: 5px;
+}
+
+.navbar .nav-link:hover {
+    background-color: #9588E8; /* Açık mor arka plan */
+    color: #ffffff !important; /* Beyaz yazı */
+    border-radius: 5px;
+}
+
+.navbar .nav-item.dropdown .dropdown-toggle {
+    color: #373737 !important; /* Koyu gri dropdown yazı rengi */
+    margin-left: 30px; /* Profil simgesine sol taraftan ekstra boşluk ekliyoruz */
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Dropdown arka planı beyaz */
+    border: 2px solid #b19cd9; /* Mor kenarlık */
+}
+
+.dropdown-item {
+    color: #373737 !important; /* Koyu gri yazı rengi */
+}
+
+.dropdown-item:hover {
+    background-color: #9588E8; /* Açık mor hover */
+    color: #ffffff; /* Beyaz yazı */
+}
+
+.navbar .nav-link.disabled {
+    color: rgba(55, 55, 55, 0.5); /* Disabled için koyu gri yarı saydam tonu */
+}
+
+/* Search form stili */
+form .form-control {
+    background-color: #fff;
+    border: 2px solid #b19cd9;
+    border-radius: 5px;
+    color: #373737; /* Koyu gri yazı */
+}
+
+form .btn {
+    background-color: #4b0082; /* Koyu mor buton rengi */
+    color: #ffffff; /* Beyaz yazı */
+    border-color: #4b0082;
+}
+
+form .btn:hover {
+    background-color: #b19cd9; /* Açık mor buton hover arka planı */
+    color: #ffffff; /* Beyaz yazı */
+}
+.btn-primary {
+    background-color: #b19cd9 !important;
+    border-color: #b19cd9 !important;
+}
+.btn-primary:hover {
+    background-color: #a490c8 !important;
+    border-color: #a490c8 !important;
+}
+/* Navbar toggler stili (mobil için) */
+.navbar-toggler {
+    border-color: #4b0082;
+}
+
+.navbar-toggler-icon {
+    background-color: #4b0082; /* Koyu mor toggler */
+}
+
+/* Footer stilini belirliyoruz */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #4b0082; /* Koyu mor link rengi */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
