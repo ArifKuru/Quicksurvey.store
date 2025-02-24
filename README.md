@@ -7,6 +7,36 @@ QuickSurvey.store is a platform that allows users to easily create and manage su
 - **User Authentication**: Login and registration mechanisms are available.
 - **Multiple Question Types**: Supports multiple-choice, text-based, and rating scale questions.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
+- **AI Survey Creation**: This Project Uses Gemini API in order to create surveys with AI
+
+## UI/UX
+
+### Landing 
+![Landing Page](http://quicksurvey.store/public/img/landing.png)
+
+### Register
+![Register Page](http://quicksurvey.store/public/img/register.png)
+
+### Admin
+![Admin Page](http://quicksurvey.store/public/img/admin.png)
+
+### Survey
+![Survey Page](http://quicksurvey.store/public/img/survey.png)
+
+### Report
+![Report Page](http://quicksurvey.store/public/img/report.png)
+
+## Technical Details
+
+### Database
+![Database Schema](http://quicksurvey.store/public/img/database.png)
+
+### UML
+![UML Schema](http://quicksurvey.store/public/img/uml.png)
+
+### Basic Representation of Algorithm
+![Algorithm Schema](http://quicksurvey.store/public/img/algo.png)
+
 
 ## Installation
 
